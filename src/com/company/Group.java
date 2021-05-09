@@ -13,6 +13,10 @@ public class Group {
         this.durationMonth = duration;
     }
 
+    @Override
+    public String toString(){
+        return "This is group on " + this.courseName.name + ". We have 12 students";
+    }
 
     public Student[] getArrayStudents() {
         return arrayStudents;

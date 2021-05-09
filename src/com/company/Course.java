@@ -18,6 +18,11 @@ public class Course {
                 + createDate + " | ID - " + ID + " | Teacher name - " + teacherFullName);
     }
 
+    @Override
+    public String toString(){
+        return "This course is " + this.name;
+    }
+
     public String getName() {
         return name;
     }

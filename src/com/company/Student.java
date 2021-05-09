@@ -17,7 +17,8 @@ public class Student {
 
     @Override
     public String toString(){
-        return "Fullname - " + surname + name + " | birthday - " + birthDate + " | sex - " + sex;
+        String message = "I'm a student " + this.surname + " " + this.name + ". I'm " + this.age;
+        return message;
     }
 
     public void printInfo(){
